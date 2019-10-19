@@ -10,7 +10,7 @@ function Form({ obj }) {
     });
   };
   const clickHandler = () => {
-    fetch('http://nataljs-quiz-api.herokuapp.com/api/v1/pessoas', {
+    fetch('https://nataljs-quiz-api.herokuapp.com/api/v1/pessoas', {
       method: 'POST',
       body: JSON.stringify({
         name: form.name,
