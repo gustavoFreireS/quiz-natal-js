@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.tag-container{
+  display: none;
+}
+h2:nth-child(2) {
+  display: none;
+}
 .App-logo {
   height: 40vmin;
 }
